@@ -1,0 +1,17 @@
+.main{
+    width:500px;
+    height:600px;
+    margin-left:400px;
+    background-color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:20px;
+    border-radius:1cm;
+    box-shadow:2px 2px 5px black;
+    font-style: italic;
+}
+.main:hover{
+    cursor:pointer;
+    box-shadow:4px 4px 10px black;
+    transition:0.4s ease-in-out;
+}

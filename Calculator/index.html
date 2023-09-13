@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Card.css">
+</head>
+<body>
+    <div class="main" style="margin-top:70px;">
+        <table>
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="display" >
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" id="1" value="1"class="inputs" onclick="add_1()"></td>
+                <td><input type="button" id="2" value="2"class="inputs" onclick="add_2()"></td>
+                <td><input type="button" id="3" value="3"class="inputs" onclick="add_3()"></td>
+                <td><input type="button" id="+" value="+"class="inputs" onclick="add_p()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="4" value="4"class="inputs" onclick="add_4()"></td>
+                <td><input type="button" id="5" value="5"class="inputs" onclick="add_5()"></td>
+                <td><input type="button" id="6" value="6"class="inputs" onclick="add_6()"></td>
+                <td><input type="button" id="-" value="-"class="inputs" onclick="add_m()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="7" value="7"class="inputs" onclick="add_7()"></td>
+                <td><input type="button" id="8" value="8"class="inputs" onclick="add_8()"></td>
+                <td><input type="button" id="9" value="9"class="inputs" onclick="add_9()"></td>
+                <td><input type="button" id="x" value="*"class="inputs" onclick="add_x()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" id="C" value="C"class="inputs_c" onclick="add_c()"></td>
+                <td><input type="button" id="0" value="0"class="inputs" onclick="add_0()"></td>
+                <td><input type="button" id="=" value="="class="inputs_e" onclick="add_e()"></td>
+                <td><input type="button" id="/" value="/"class="inputs" onclick="add_d()"></td>
+            </tr>
+        </table>
+    </div>
+    <br /><br />
+    <div class="block-5">
+        <hr />
+        <table>
+            <tr>
+                </td>
+                <th>
+                    All Copyrights reserved &copy;Sree Charan 2023
+                </th>
+
+                <td class="td">
+                    <a href="#"><img src="Icons/whatsapp-24.ico"></a>
+                </td>
+                <td>
+                    <a href="#"><img src="Icons/107149_gray_circle_linkedin_icon (1).png"></a>
+                </td>
+                <td>
+                    <a href="#"><img src="Icons/github-10-24.png"></a>
+                </td>
+                <td>
+                    <a href="#"><img src="Icons/twitter-24.png"></a>
+                </td>
+            </tr>
+        </table>    
+    </div>
+</div>
+<style>
+
+    .block-5{
+        background-color:white;
+        height:100px;
+        margin-top:-20px;
+        font-family: 'Roboto', sans-serif;
+        margin-bottom:10px;
+    }
+    
+    .block-5 h1{
+        font-size:40px;
+        padding:150px;
+        padding-top:50px;
+        padding-bottom:10px;
+    }
+    
+    .block-5 h1::first-letter{
+        font-size:60px;
+    }
+    
+    .block-5 .p1{
+        color:grey;
+        padding:200px;
+        padding-top:1px;
+        padding-bottom:10px;
+    }
+    
+    .block-5 .p2{
+        padding:200px;
+        width:950px;
+        text-align: justify;
+        padding-top:1px;
+        padding-left:200px;
+        padding-bottom:1px;
+        text-indent:100px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .block-5 table{
+        padding:200px;
+        padding-top:20px;
+        margin-bottom:10px;
+        padding-bottom:1px;
+        border-left:5px solid black;
+        padding-left:10px;
+        margin-left:10px;
+    }
+    
+    .block-5 table .td{
+        padding-left:200px;
+    }
+    
+    .block-5 table td{
+        padding:20px;
+    }
+    
+    .block-5 table th{
+        padding:20px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .block-5 table img{
+        width:34px;
+        height:34px;
+        border-radius:20px;
+    }
+        </style>
+    <script src="script.js"></script>
+</body>
+</html>
