@@ -1,0 +1,340 @@
+        /* Universal */
+
+        *{
+            margin-left:0px;
+            margin-right:0px;
+        }
+
+        html{
+            scroll-behavior:smooth;
+        }
+
+        body{
+            /* background-image:url('bg.jpg'); */
+            background-size:cover;
+            background-position:center;
+            background-repeat:none;
+            background-attachment:scroll;
+            background-color:rgba(249, 162, 1,0.2);
+        }
+
+        /* Nav */
+
+        .nav{
+            height:100px;
+            margin-top:-20px;
+            padding-left:50px;
+            margin-bottom:10px;
+            background-color:white;
+        }
+
+        /* Landing Page -heading  */
+        .nav th h1{
+            padding-right:150px;
+        }
+
+        .nav h1::first-letter{
+            font-size:60px;
+        }
+
+
+        /* Nav options */
+
+        .nav table td a{
+            color:black;
+            text-decoration:none;
+        }
+
+        .nav table td{
+            padding:30px;
+        }
+
+        .buy-now{
+            font-size:18px;
+        }
+
+        .gap{
+            margin-right:100px;
+        }
+
+        .material-symbols-rounded {
+          font-variation-settings:
+          'FILL' 0,
+          'wght' 400,
+          'GRAD' 0,
+          'opsz' 100;
+          color:black;
+        }
+
+        /*Underline-animation */
+
+        .underline-animation {
+        position: relative;
+        text-decoration: none; /* Remove default underline */
+        }
+
+        .underline-animation::after {
+        content:''; /* Create a pseudo-element for the underline */
+        position:absolute;
+        left:0;
+        bottom:-3px; /* Adjust to align with text */
+        width:0%;
+        height:2px; /* Underline thickness */
+        background-color: yellow; /* Underline color */
+        transition: width 0.4s ease-in-out; /* Animation duration and easing */
+        
+        }
+
+        .underline-animation:hover::after {
+            width: 100%; /* Expand the underline on hover */
+        }
+
+
+        /* Block-1 */
+
+        .block-1{
+            height:500px;
+            /* background-image:url("block-1.jpg"); */
+            background-size:cover;
+            background-position:top;
+            background-color:white;
+            margin-top:-10px;
+        }
+
+        /* block-1 layer */
+
+        .block-1 .layer{
+            height:500px;
+        }
+
+        /* block-1 .layer .content h1 */
+
+        .block-1 .layer .content h1{
+            color:transparent;
+            font-size:30px;
+            padding:0px;
+            padding-left:20px;
+            margin-bottom:45px;
+            margin-top:-90px;
+        }
+        
+
+        /* block-1 .layer .content h2 */
+
+        .block-1 .layer .content h2{
+            color:transparent;
+            font-size:60px;
+            padding:0px;
+            padding-left:20px;
+            margin-top:-150px;
+            margin-bottom:54px;
+        }
+
+        /* block-1 .layer .content p */
+
+        .block-1 .layer .content p{
+            color:transparent;
+            font-size:16px;
+            padding-left:20px;
+            margin-top:-50px;
+        }
+        /* block-1 .layer .content */
+
+        .content{
+            border-left: 6px solid transparent;
+            height: 200px;
+            position:absolute;
+            left:10%;
+            padding-left:-200px;
+            margin-top:100px;
+            margin-left:-500px;
+        }
+
+        .readmore{
+            margin:50px;
+            height:50px;
+            width:150px;
+            border-radius:20px;
+            background-color:transparent;
+            border:solid;
+            font-size:18px;
+            font-weight:900;
+            margin-top:20px;
+            margin-left:-20px;
+            color:black;
+        }
+
+        .readmore:hover{
+            margin:50px;
+            height:50px;
+            width:150px;
+            border-radius:20px;
+            background-color:transparent;
+            border:solid;
+            font-size:18px;
+            font-weight:900;
+            margin-top:20px;
+            margin-left:-20px;
+            color:white;
+            background-color:black;
+            transition:0.3s ease-in-out;
+        }
+
+
+        .consult{
+            margin:50px;
+            height:50px;
+            width:150px;
+            border-radius:20px;
+            background-color:transparent;
+            border:solid;
+            font-size:18px;
+            font-weight:900;
+            margin-top:20px;
+            margin-left:-20px;
+            color:white;
+            background-color:black;
+        }
+
+        .consult:hover{
+            margin:50px;
+            height:50px;
+            width:150px;
+            border-radius:20px;
+            background-color:transparent;
+            border:solid;
+            font-size:18px;
+            font-weight:900;
+            margin-top:20px;
+            margin-left:-20px;
+            color:black;
+            transition:0.3s ease-in;
+        }
+
+        .buttons{
+            margin-left:500px;
+            visibility:hidden;
+        }
+
+
+    .block-2{
+        height:200px;
+        background-color:white;
+        margin-top:-10px;
+    }
+
+    .sub-block{
+        width:300px;
+        padding:75px;
+        padding-top:30px;
+        color:black;
+    }
+
+    .material-symbols-outlined.md-60{
+        font-size:60px;
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24;
+        color:white;
+        font-size:100px; 
+    }
+
+    .block-3{
+        height:500px;
+        padding-left:100px;
+        background-color:white;
+        margin-top:-10px;
+    }
+
+
+    .block-3 table h1{
+        font-size:24px;
+    }
+
+    .block-3 table h1::first-letter{
+        font-size:54px;
+        text-decoration:underline;
+    }
+
+    .block-3 table h1::first-letter{
+        color:orange;
+    }
+
+    .block-3 table p{
+        text-align: justify;
+        width:800px;
+        line-height:24px;
+        text-shadow:1px 1px 2.5px white;
+    }
+
+    .block-3 table img{
+        width:450px;
+        height:450px;
+    }
+
+
+    .block-4{
+        height:500px;
+        padding-left:100px;
+        background-color:white;
+        margin-top:-10px;
+    }
+
+
+    .block-4 table h1{
+        font-size:24px;
+    }
+
+    .block-4 table h1::first-letter{
+        font-size:54px;
+        text-decoration:underline;
+    }
+
+    .block-4 table h1::first-letter{
+        color:orange;
+    }
+
+    .block-4 table td{
+        padding:24px;
+    }
+
+    .block-4 table .cards{
+        width:350px;
+        height:200px;
+        background-color:white;
+        border-radius:20px;
+        box-shadow:2px 2px 5px black;
+    }
+
+    .block-4 table .cards img{
+        width:350px;
+        height:200px;
+        border-radius:20px;
+        }
+
+    .block-4 table .cards .context{
+            width:200px;
+            height:34px;
+            background-color:white;
+            border-radius:20px;
+            box-shadow:2px 2px 5px black;
+            margin-left:150px;
+            margin-top:-30px;
+            visibility:hidden;
+        }
+
+    .block-4 table .cards .context p{
+        padding:10px;
+        font-weight:900;
+        padding-left:20px;
+        color:transparent;
+        }
+    .block-4 table .cards:hover{
+        width:350px;
+        height:200px;
+        background-color:white;
+        border-radius:20px;
+        box-shadow:4px 4px 10px black;
+    }
